@@ -1,4 +1,4 @@
-var deadLine = new Date("mar 28, 2024, 8:00:00").getTime();
+var deadLine = new Date("mar 18, 2024, 8:00:00").getTime();
 
 document.querySelector(".copyright").innerText = `Association of Computer Engineering Students \u00A9 ${new Date().getFullYear()}`
 
