@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat, no-repeat;
     font-family: 'Red Hat Text', sans-serif;
     font-size: 700;
+    /* height: 100%; */
 }
 p{
     margin: 0%;
@@ -46,7 +47,7 @@ p{
 .icons{
     display: flex;
     justify-content: center;
-    margin: 9%;
+    margin: 4.5%;
 }
 .icons svg{
     margin: 20px;
@@ -58,14 +59,24 @@ p{
 .fifthRow{
     display: none;
 }
-
-
-@media screen and (max-width: 600px){
+.courtesy{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.copyright {
+    color: #8486A9;
+}
+@media screen and (max-width: 800px){
     .container{
         flex-direction: column;
         text-align: center;
         width: 50%;
         margin-left: 25%;
+    }
+    .copyright{
+        color: #8486A9;
+        text-align: center;
     }
 }
 

@@ -1,4 +1,6 @@
-var deadLine = new Date("dec 4, 2023, 8:00:00").getTime();
+var deadLine = new Date("mar 28, 2024, 8:00:00").getTime();
+
+document.querySelector(".copyright").innerText = `Association of Computer Engineering Students \u00A9 ${new Date().getFullYear()}`
 
 var x = setInterval(function(){
     var currentDate = new Date().getTime();
@@ -28,8 +30,6 @@ var x = setInterval(function(){
             document.querySelectorAll("p")[i].innerHTML = "";
             console.log((document.querySelectorAll("p")).length);
         }
-        
     }
 }, 1000);
-
 
